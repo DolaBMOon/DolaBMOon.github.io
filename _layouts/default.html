@@ -11,9 +11,28 @@
 		<style>
 
 body, html {
-	height: 100%;
 	margin: 0;
+	height: 100%;
 	font-family: Arial;
+}
+
+.maincontent::before {
+	content: "";
+	display: table;
+}
+
+.maincontent {
+	background: url("/assets/img/bg.png");
+	min-height: 100%;
+}
+
+.realmaincontent {
+	width: 85%;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%, 0);
+	background-color: #FFF0F5;
+	opacity: 0.9;
 }
 
 .hero-image {
@@ -72,7 +91,12 @@ a {
 				<a href="/"><h1>{{ site.title }}</h1></a>
 			</div>
 		</div>
-		{{ content }}
-		<center>|Max Hsia's work|</center>
+
+		<div class="maincontent">
+			<div class="realmaincontent">
+				{{ content }}
+			</div>
+			<center>|Max Hsia's work|</center>
+		</div>
 	</body>
 </html>
