@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The History of Some Recurring Problem
-tag: ["strings", "data structures", "tricks"]
+tag: [strings, data structures, tricks]
 ---
 
 由于译者个人原因, 本文与原文有**极大**出入, 真是不好意思
