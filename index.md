@@ -14,9 +14,9 @@ title: SinceTIme
 
 <center><h2>{{ post.title }}</h2></center>
 
-{{ post.excerpt }}
+<p>{{ post.excerpt }}</p>
 
-Click for <a href="{{ post.url }}">>more<</a>
+<p>Click for <a href="{{ post.url }}">>more<</a></p>
 
 </div>
 
@@ -33,9 +33,10 @@ Click for <a href="{{ post.url }}">>more<</a>
 
 <center><h2>{{ post.title }}</h2></center>
 
-{{ post.excerpt }}
 
-Click for <a href="{{ post.url }}">>more<</a>
+<p>{{ post.excerpt }}</p>
+
+<p>Click for <a href="{{ post.url }}">>more<</a></p>
 
 </div>
 
