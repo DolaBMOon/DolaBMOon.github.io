@@ -34,7 +34,6 @@ body, html {
 	position: relative;
 	transform: translate(-50%, 0);
 	background-color: #FFF0F5;
-	opacity: 0.9;
 }
 
 .hero-image {
@@ -66,6 +65,22 @@ a {
 	transform: translate(-50%, -50%);
 	color: white;
 }
+
+.white-free::before {
+	content: "";
+	display: table;
+}
+
+.white-free {
+	margin: 0;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.article-entry {
+	margin: 10px;
+	background-color: white;
+}
 		</style>
 	</head>
 	<body>
@@ -96,10 +111,12 @@ a {
 		</div>
 
 		<div class="maincontent">
+			<div class="white-free">
 			<div class="realmaincontent">
 				{{ content }}
 			</div>
 			<center>|Max Hsia's work|</center>
+			</div>
 		</div>
 	</body>
 </html>

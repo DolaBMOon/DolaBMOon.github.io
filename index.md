@@ -10,15 +10,15 @@ title: SinceTIme
 {% for post in site.posts %}
 {% if post.top == true %}
 
----
+<div class="article-entry">
 
 <center><h2>{{ post.title }}</h2></center>
 
 {{ post.excerpt }}
 
-Click for [>more\<]({{ post.url }})
+Click for <a href="{{ post.url }}">>more<</a>
 
----
+</div>
 
 {% endif %}
 {% endfor %}
@@ -29,14 +29,14 @@ Click for [>more\<]({{ post.url }})
 
 {% for post in site.posts %}
 
----
+<div class="article-entry">
 
 <center><h2>{{ post.title }}</h2></center>
 
 {{ post.excerpt }}
 
-Click for [>more\<]({{ post.url }})
+Click for <a href="{{ post.url }}">>more<</a>
 
----
+</div>
 
 {% endfor %}
