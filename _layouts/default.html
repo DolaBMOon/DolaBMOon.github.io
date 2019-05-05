@@ -18,17 +18,17 @@ body, html {
 	font-family: Arial;
 }
 
-.maincontent::before {
+.bg::before {
 	content: "";
 	display: table;
 }
 
-.maincontent {
+.bg {
 	background: url("/assets/img/bg.png");
 	min-height: 100%;
 }
 
-.realmaincontent {
+.main-content {
 	width: 85%;
 	left: 50%;
 	position: relative;
@@ -58,6 +58,7 @@ a {
 }
 
 .hero-text {
+	test-decoration: none;
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -110,12 +111,12 @@ a {
 			</div>
 		</div>
 
-		<div class="maincontent">
+		<div class="bg">
 			<div class="white-free">
-			<div class="realmaincontent">
-				{{ content }}
-			</div>
-			<center>|Max Hsia's work|</center>
+				<div class="main-content">
+					{{ content }}
+				</div>
+				<center>|Max Hsia's work|</center>
 			</div>
 		</div>
 	</body>
