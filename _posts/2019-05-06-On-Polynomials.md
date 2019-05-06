@@ -171,12 +171,12 @@ $$
 
 $$
 \begin{aligned}
-f &= \int e^{-ln(1 - x) - f} dx \\
-{df \over dx} &= {e^{-f} \over 1 - x} \\
-{e^f df} &= {dx \over 1 - x} \\
-\int e^f df &= \int {dx \over 1 - x} \\
-e^f &= -ln(1 - x) + C (it\ seems\ C = 1) \\
-f &= ln(1 - ln(1 - x))
+F &= \int e^{-ln(1 - x) - F} dx \\
+{dF \over dx} &= {e^{-F} \over 1 - x} \\
+{e^F dF} &= {dx \over 1 - x} \\
+\int e^F dF &= \int {dx \over 1 - x} \\
+e^F &= -ln(1 - x) + C (it\ seems\ C = 1) \\
+F &= ln(1 - ln(1 - x))
 \end{aligned}
 $$
 
