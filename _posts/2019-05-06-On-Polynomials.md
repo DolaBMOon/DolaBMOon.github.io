@@ -97,13 +97,13 @@ $$
 
 这里比较奇怪的是: 如果不列 $$F - G^{-1} \equiv 0 \pmod{x^n}$$ 就解不出来, 比如列成 $$F^{-1} - G \equiv 0 \pmod{x^n}$$ 又或者 $$FG - 1 \equiv 0 \pmod{x^n}$$ 都解不出来...
 
-#### 多项式求 $\ln$
+#### 多项式求 $$\ln$$
 
 $$
 \ln F = \int \ln'(F)dx = \int {F' \over F}dx
 $$
 
-#### 多项式求 $\exp$
+#### 多项式求 $$\exp$$
 
 $$
 F - \ln G \equiv F - \ln G_0 - {1 \over G_0}(G - G_0) \pmod{x^n} \\
