@@ -63,16 +63,20 @@ $$
 ## 牛顿迭代
 
 如果: 
+
 $$
 F(G(x)) = 0 \\
 F(G_0(x)) \equiv 0 \pmod{x^{\lceil{n \over 2}\rceil}}
 $$
+
 发现如果将第二行这个式子泰勒展开最多只有前两项 $$\mod{n}$$ 有值...
 
 所以有: 
+
 $$
 F(G(x)) \equiv F(G_0(x)) + F'(G_0(x))(G(x)-G_0(x)) \equiv 0 \pmod{x^n}
 $$
+
 可以解出 $$G(x) \mod{n}$$. 
 
 ## 多项式大家族
