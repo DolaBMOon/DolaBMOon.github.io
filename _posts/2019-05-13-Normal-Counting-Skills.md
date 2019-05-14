@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Normal Couting Skills
+title: Normal Counting Skills
 tags: [math, tricks]
 ---
 
