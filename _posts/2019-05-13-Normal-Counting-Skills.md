@@ -47,3 +47,21 @@ x^{\underline n} = \sum\limits_i (-1)^{n - i}{n \brack i}x^i \\
 $$
 
 $$A$$ 是集合划分, 一般是正整数拆分枚举的. 
+
+## 数树
+
+### 矩阵树定理
+
+设根为 $$r$$, 度数矩阵为 $$D$$, 邻接矩阵为 $$G$$, 生成树个数为 $$T_r(G) = \det ((D - G)\text{Remove the row and column of r})$$, 在有向图中 $$D$$, 计入的是出度或者入度. 
+
+#### BEST 定理
+
+$$
+Eu(G) = T_r(G)\prod\limits_i (deg(i) - 1)!
+$$
+
+$$G$$ 是有向图, $$Eu(G)$$ 是指 $$G$$ 的欧拉路径数, $$T_r(G)$$ 是指内向树个数. 
+
+### Prufer 序列
+
+* 大小分别为 $$a_1, …, a_k, n = \sum\limits_i a_i$$ 的连通块形成的生成树总数为 $$n^{k - 2}\prod\limits_i a_i$$. 
