@@ -7,8 +7,22 @@ tags: [introduction]
 
 亦即是说, 此处有关于作者的只言片语. 
 
-峰城大附属在读, 兴趣是 *loading*, 最差的学科是 OI. 
+可以用暗号联系我: 270487926@qq.com \| dolabmoon@gmail.com
 
-可以用暗号联系我: 270487926 \| dolabmoon@gmail.com
+> status: 文化课啦 😒. 
 
-> status: zibi-ing 😒. 
+I am the bone of my sword
+
+Steel is my body and fire is my blood
+
+I have created over a thousand blades
+
+Unknown to Death
+
+Nor known to Life
+
+Have withstood pain to create weapons
+
+Yet,those hands will never hold anything
+
+So as I pray,unlimited blade works
